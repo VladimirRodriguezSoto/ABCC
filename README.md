@@ -31,19 +31,20 @@ Consulta:
 Al ingresar al programa el usuario sólo deberá poder capturar el Sku, una vez capturado se deberá validar si existe. En el caso de existir, se deberán mostrar los datos de Artículo, Marca, Modelo, Departamento, Clase, Familia, Fecha de Alta, Stock, Cantidad, Descontinuado, Fecha Baja.
 
 Restricciones:
-*La cantidad no debe ser mayor al stock.
 
-*El departamento se deberá llenar al ingresar un Sku válido.
+La cantidad no debe ser mayor al stock.
 
-*La clase solo se podrá seleccionar si se encuentra un departamento seleccionado además solo deberá mostrar las clases pertenecientes a ese departamento.
+El departamento se deberá llenar al ingresar un Sku válido.
 
-*La familia solo se podrá seleccionar si se encuentra una clase seleccionada además solo deberá mostrar las familias pertenecientes a ese departamento-clase.
+La clase solo se podrá seleccionar si se encuentra un departamento seleccionado además solo deberá mostrar las clases pertenecientes a ese departamento.
 
-*La fecha baja se deberá actualizar al día actual cuando la clave de descontinuado se actualice a encendido.
+La familia solo se podrá seleccionar si se encuentra una clase seleccionada además solo deberá mostrar las familias pertenecientes a ese departamento-clase.
 
-*Toda alta, baja, cambio o consulta deberá realizarse a través de procedimientos almacenados.
+La fecha baja se deberá actualizar al día actual cuando la clave de descontinuado se actualice a encendido.
 
-*Todos los objetos de bases de datos deberán guardarse en un archivo para su revisión ya sea de manera individual o conjunta.
+Toda alta, baja, cambio o consulta deberá realizarse a través de procedimientos almacenados.
+
+Todos los objetos de bases de datos deberán guardarse en un archivo para su revisión ya sea de manera individual o conjunta.
 
 
 
